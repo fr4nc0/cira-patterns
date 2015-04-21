@@ -2,6 +2,9 @@ package it.cira.patterns.creational.singleton;
 
 public class PrinterSpooler {
 
+	/**
+	 * istanza di classe statica
+	 */
 	private static PrinterSpooler instance;
 	
 	/**
