@@ -32,17 +32,4 @@ public class Client {
 		player.play();
 	}
 	
-	
-	public void test(String song){
-		Media media = technology.createMedia();
-		Player player = technology.createPlayer();
-		Recorder recorder = technology.createRecorder();
-		
-		recorder.accept(media);
-		recorder.record(song);
-		
-		player.accept(media);
-		player.play();
-		
-	}
 }
