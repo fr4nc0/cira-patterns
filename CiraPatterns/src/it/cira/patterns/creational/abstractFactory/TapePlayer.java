@@ -11,6 +11,7 @@ public class TapePlayer implements Player {
 
 	@Override
 	public void play() {
+		System.out.println("Playing Tape");
 		if(tapeInside == null)
 			System.out.println("Error: Insert a tape.");
 		else
