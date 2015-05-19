@@ -7,7 +7,6 @@ public class Client {
 		technology = df;
 	}
 
-
 	public void test(String song){
 		Media media = technology.createMedia();
 		Player player = technology.createPlayer();
