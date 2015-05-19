@@ -7,26 +7,14 @@ public class Client {
 		technology = df;
 	}
 
-	public static void main(String [] args){
-		//Tape Media
-		DevicesFactory technology = new TapeDevicesFactory();
+
+	public void test(String song){
 		Media media = technology.createMedia();
 		Player player = technology.createPlayer();
 		Recorder recorder = technology.createRecorder();
 		
 		recorder.accept(media);
-		recorder.record("Volare oh oh!");
-		
-		player.accept(media);
-		player.play();
-		// CD Media
-		technology = new CDDevicesFactory();
-		media = technology.createMedia();
-		player = technology.createPlayer();
-		recorder = technology.createRecorder();
-		
-		recorder.accept(media);
-		recorder.record("Con te partirò!");
+		recorder.record(song);
 		
 		player.accept(media);
 		player.play();
