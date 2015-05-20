@@ -13,4 +13,5 @@ public class TestBuilderPattern {
         System.out.println(comp.getHDD() + " " + comp.getRAM() + " " + comp.isBluetoothEnabled() + " " + comp.isGraphicsCardEnabled()); 
     }
  
+    
 }
