@@ -4,7 +4,7 @@
  * 
  */
 
-package it.cira.patterns.creational.factory;
+package it.cira.patterns.creational.factoryMethod;
 
 public class Quadrato implements Shape {
 
