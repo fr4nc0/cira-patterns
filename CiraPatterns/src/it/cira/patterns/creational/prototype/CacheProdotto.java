@@ -14,6 +14,7 @@ public class CacheProdotto {
 			Libro b1 = new Libro();
 			b1.setDescrizione("Promessi Sposi");
 			b1.setSKU("B1");
+			
 			b1.setNumeroDiPagine(100);
 			mapProdotti.put(b1.getSKU(), b1);
 			DVD d1 = new DVD();
