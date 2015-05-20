@@ -8,5 +8,9 @@
 package it.cira.patterns.creational.factoryMethod;
 
 public interface Shape {
-	void draw();
+	
+	void 	setColor(String color);
+	String 	getColor();
+	void 	draw();
+	
 }

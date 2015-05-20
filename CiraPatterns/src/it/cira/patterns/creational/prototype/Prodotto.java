@@ -4,6 +4,7 @@ public abstract class Prodotto implements Cloneable {
 		private String SKU;
 		private String descrizione;	
 		
+		@Override
 		public Object clone() {
 			Object clone = null;
 			try {

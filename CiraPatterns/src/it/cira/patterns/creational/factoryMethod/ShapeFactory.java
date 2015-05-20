@@ -16,14 +16,28 @@ public class ShapeFactory {
 		if(shapeType == null){
 			return null;
 		}		
+
 		if(shapeType.equalsIgnoreCase("CERCHIO")){
-			return new Cerchio();
+
+			Cerchio cerchio	= new Cerchio();
+			cerchio.setColor("Bianco");
+			cerchio.setRadius(6);
+			return cerchio;
 
 		} else if(shapeType.equalsIgnoreCase("RETTANGOLO")){
-			return new Rettangolo();
+
+			Rettangolo rettangolo = new Rettangolo();
+			rettangolo.setColor("Rosso");
+			rettangolo.setEdge1(8);
+			rettangolo.setEdge2(6);
+			return rettangolo;
 
 		} else if(shapeType.equalsIgnoreCase("QUADRATO")){
-			return new Quadrato();
+
+			Quadrato quadrato = new Quadrato();
+			quadrato.setColor("Verde");
+			quadrato.setEdge(4);
+			return quadrato;
 		}
 
 		return null;

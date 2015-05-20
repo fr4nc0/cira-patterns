@@ -1,26 +1,33 @@
 package it.cira.patterns.creational.factoryMethod;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class EsempioFactory {
 
-	   public static void main(String[] args) {
-	      ShapeFactory shapeFactory = new ShapeFactory();
+	public static void main(String[] args) {
 
-	      /*
-	       * richiede un oggetto di tipo cerchio e lo disegna
-	       */
-	      Shape cerchio = shapeFactory.getShape("CERCHIO");
-	      cerchio.draw();
+		ShapeFactory shapeFactory = new ShapeFactory();
 
-	      /*
-	       * richiede un oggetto di tipo rettangolo e lo disegna
-	       */
-	      Shape rettangolo = shapeFactory.getShape("RETTANGOLO");
-	      rettangolo.draw();
+		/*
+		 * richiede gli oggetti 
+		 */
+		Shape cerchio 		= shapeFactory.getShape("CERCHIO");
+		Shape rettangolo 	= shapeFactory.getShape("RETTANGOLO");
+		Shape quadrato 		= shapeFactory.getShape("QUADRATO");
 
-	      /*
-	       * richiede un oggetto di tipo quadrato e lo disegna
-	       */
-	      Shape quadrato = shapeFactory.getShape("QUADRATO");
-	      quadrato.draw();
-	   }
+		List<Shape> list = new ArrayList<Shape>();
+		list.add(cerchio);
+		list.add(rettangolo);
+		list.add(quadrato);
+
+		disegnaImmagine(list);
 	}
+
+	private static void disegnaImmagine(List<Shape> list) {
+
+		for ( Shape shape: list ) {
+			shape.draw();
+		}
+	}
+}
