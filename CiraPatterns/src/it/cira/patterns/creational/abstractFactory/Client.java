@@ -17,6 +17,6 @@ public class Client {
 		
 		player.accept(media);
 		player.play();
-		
 	}
+	
 }

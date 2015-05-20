@@ -12,6 +12,7 @@ public class CDPlayer implements Player {
 
 	@Override
 	public void play() {
+		System.out.println("Playing CD");
 		if(cDInside == null)
 			System.out.println("Error: No CD.");
 		else
