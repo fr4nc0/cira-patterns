@@ -3,7 +3,11 @@
   associations="true" dependencies="true" nesting-relationships="true">  
   <class id="1" language="java" name="it.cira.patterns.creational.abstractFactory.CD" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/CD.java" binary="false" corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="158" y="107"/>    
+=======
+    <position height="-1" width="-1" x="202" y="692"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -13,8 +17,13 @@
   <class id="2" language="java" name="it.cira.patterns.creational.abstractFactory.CDDevicesFactory" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/CDDevicesFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="141" width="183" x="418" y="275"/>    
     <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+=======
+    <position height="-1" width="-1" x="515" y="660"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
@@ -23,7 +32,11 @@
   <class id="3" language="java" name="it.cira.patterns.creational.abstractFactory.CDPlayer" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/CDPlayer.java" binary="false" 
     corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="442" y="101"/>    
+=======
+    <position height="-1" width="-1" x="148" y="488"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -33,7 +46,11 @@
   <class id="4" language="java" name="it.cira.patterns.creational.abstractFactory.Client" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/Client.java" binary="false" 
     corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="1180" y="93"/>    
+=======
+    <position height="-1" width="-1" x="601" y="63"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -43,7 +60,11 @@
   <interface id="5" language="java" name="it.cira.patterns.creational.abstractFactory.DevicesFactory" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/DevicesFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="901" y="262"/>    
+=======
+    <position height="-1" width="-1" x="1038" y="216"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -53,7 +74,7 @@
   <interface id="6" language="java" name="it.cira.patterns.creational.abstractFactory.Player" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/Player.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="745" y="89"/>    
+    <position height="-1" width="-1" x="604" y="320"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -63,7 +84,11 @@
   <interface id="7" language="java" name="it.cira.patterns.creational.abstractFactory.Recorder" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/Recorder.java" binary="false" 
     corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="1039" y="443"/>    
+=======
+    <position height="-1" width="-1" x="225" y="222"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -73,7 +98,11 @@
   <class id="8" language="java" name="it.cira.patterns.creational.abstractFactory.TapeDevicesFactory" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/TapeDevicesFactory.java" 
     binary="false" corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="583" y="532"/>    
+=======
+    <position height="-1" width="-1" x="796" y="652"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -83,7 +112,11 @@
   <class id="9" language="java" name="it.cira.patterns.creational.abstractFactory.TapePlayer" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/TapePlayer.java" binary="false" 
     corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="184" y="346"/>    
+=======
+    <position height="-1" width="-1" x="1050" y="514"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -92,16 +125,34 @@
   </class>  
   <class id="10" language="java" name="it.cira.patterns.creational.abstractFactory.Tape" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/creational/abstractFactory/Tape.java" binary="false" corner="BOTTOM_RIGHT">    
+<<<<<<< HEAD
     <position height="-1" width="-1" x="290" y="630"/>    
+=======
+    <position height="-1" width="-1" x="1085" y="737"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
+<<<<<<< HEAD
   <realization id="11">    
     <end type="SOURCE" refId="3"/>    
+=======
+  <dependency id="11">    
+    <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="12">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="13">    
+    <end type="SOURCE" refId="5"/>    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
+    <end type="TARGET" refId="6"/>  
+<<<<<<< HEAD
   </realization>  
   <association id="12">    
     <end type="SOURCE" refId="3" navigable="false">      
@@ -128,9 +179,82 @@
     <end type="TARGET" refId="5"/>  
   </realization>  
   <dependency id="18">    
+=======
+  </dependency>  
+  <dependency id="14">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <dependency id="15">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <realization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <realization id="20">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="5"/>  
+  </realization>  
+  <association id="22">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="23" name="tapeInside">        
+        <position height="0" width="0" x="816" y="-129"/>      
+      </attribute>      
+      <multiplicity id="24" minimum="0" maximum="1">        
+        <position height="0" width="0" x="816" y="-129"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="25">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="6"/>  
+  </realization>  
+  <dependency id="26">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="27">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="28" name="technology">        
+        <position height="0" width="0" x="102" y="-259"/>      
+      </attribute>      
+      <multiplicity id="29" minimum="0" maximum="1">        
+        <position height="0" width="0" x="102" y="-259"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="30">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="31">    
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
     <end type="SOURCE" refId="5"/>    
     <end type="TARGET" refId="7"/>  
   </dependency>  
+<<<<<<< HEAD
   <association id="19">    
     <end type="SOURCE" refId="4" navigable="false">      
       <attribute id="20" name="technology">        
@@ -170,6 +294,11 @@
   <dependency id="28">    
     <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="3"/>  
+=======
+  <dependency id="32">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="7"/>  
+>>>>>>> branch 'master' of https://github.com/fr4nc0/cira-patterns.git
   </dependency>  
   <dependency id="29">    
     <end type="SOURCE" refId="4"/>    

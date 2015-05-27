@@ -1,15 +1,22 @@
+package it.cira.patterns.creational.factoryMethod2;
 
-/**
- * @author: F. Gargiulo
- * 
- */
+import it.cira.patterns.creational.factoryMethod.Shape;
 
-package it.cira.patterns.creational.factoryMethod;
+public class Cerchio2 implements Shape {
 
-public class Cerchio implements Shape {
-
-	private String 	color;
+	private String color;
 	private int 	radius;
+	
+	private Cerchio2() {
+		
+	}
+
+	
+	public static Shape createNew() {
+		Cerchio2 cerchio = new Cerchio2();
+		return cerchio;
+	}
+	
 	
 	@Override
 	public void draw() {
@@ -19,6 +26,7 @@ public class Cerchio implements Shape {
 	@Override
 	public void setColor(String color) {
 		this.color = color;
+		
 	}
 
 	@Override
@@ -33,5 +41,9 @@ public class Cerchio implements Shape {
 	public void setRadius(int radius) {
 		this.radius = radius;
 	}
-}
 
+
+
+	
+
+}
