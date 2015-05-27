@@ -1,5 +1,11 @@
 package it.cira.snippets.Bridge;
 
-public class MatriceSparsaVector implements MatriceSparsa {
+import it.cira.snippets.Bridge.Vector;;
+
+public class MatriceSparsaVector extends MatriceSparsa {
+
+	public MatriceSparsaVector(int righe, int colonne, Vector dati) {
+		super(righe, colonne, dati);
+	}
 
 }

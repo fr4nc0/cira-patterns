@@ -1,5 +1,12 @@
 package it.cira.snippets.Bridge;
 
-public class MatriceCompletaVector implements MatriceCompleta {
+import it.cira.snippets.Bridge.Vector;
+
+public class MatriceCompletaVector extends MatriceCompleta {
+
+	public MatriceCompletaVector(int righe, int colonne, Vector dati) {
+		super(righe, colonne, dati);
+		
+	}
 
 }

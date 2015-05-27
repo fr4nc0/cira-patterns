@@ -1,5 +1,8 @@
 package it.cira.snippets.Bridge;
 
-public interface Matrice {
+import it.cira.snippets.Bridge.Collection;;
 
+public abstract class Matrice {
+
+	public Matrice(int righe, int colonne, Collection dati) {}
 }

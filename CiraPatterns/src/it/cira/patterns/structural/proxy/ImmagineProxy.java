@@ -2,7 +2,6 @@ package it.cira.patterns.structural.proxy;
 
 public class ImmagineProxy implements Immagine {
 
-
 	private ImmagineReale immagineReale;
 	private String fileName;
 
