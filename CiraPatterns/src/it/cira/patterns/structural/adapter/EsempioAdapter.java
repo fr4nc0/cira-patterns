@@ -18,12 +18,11 @@ public class EsempioAdapter {
 		 * 	2. non è stata modificata 
 		 */
 		
-		
 		/*
 		 *  PersonaDAO ========> PersonaAdapter
 		 */
 		System.out.println( " PersonaDAO ========> PersonaAdapter ");
-		PersonaAdapter francescoAdapter = new PersonaAdapter(1, "Francesco", "Gargiulo",
+		InterfacciaPersona francescoAdapter = new PersonaAdapter(1, "Francesco", "Gargiulo",
 				"via Roma", "08100", "Caserta", "Italia" );
 		francescoAdapter.visualizza();
 		
@@ -32,7 +31,7 @@ public class EsempioAdapter {
 		 *  PersonaAdapter ========> PersonaDAO 
 		 */
 		System.out.println( "\n\nPersonaAdapter ========> PersonaDAO" );
-		PersonaAdapter eleonoraAdapter = new PersonaAdapter();
+		InterfacciaPersona eleonoraAdapter = new PersonaAdapter();
 		eleonoraAdapter.setNominativo("Eleonora Ascione");
 		eleonoraAdapter.salva();
 		
@@ -64,9 +63,4 @@ public class EsempioAdapter {
 		nunzia.visualizza();
 		
 	}
-	
-	
-	
-	
-	
 }
