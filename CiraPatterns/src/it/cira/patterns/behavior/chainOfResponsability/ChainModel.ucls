@@ -4,7 +4,7 @@
   <class id="1" language="java" name="it.cira.patterns.behavior.chainOfResponsability.LoggerErrore" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/behavior/chainOfResponsability/LoggerErrore.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="633" y="392"/>    
+    <position height="-1" width="-1" x="644" y="394"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -14,7 +14,7 @@
   <class id="2" language="java" name="it.cira.patterns.behavior.chainOfResponsability.LoggerFile" project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/behavior/chainOfResponsability/LoggerFile.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="407" y="390"/>    
+    <position height="-1" width="-1" x="426" y="393"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -24,7 +24,7 @@
   <class id="3" language="java" name="it.cira.patterns.behavior.chainOfResponsability.LoggerConsole" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/behavior/chainOfResponsability/LoggerConsole.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="162" y="389"/>    
+    <position height="-1" width="-1" x="192" y="397"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -35,7 +35,7 @@
     project="CiraPatterns" 
     file="/CiraPatterns/src/it/cira/patterns/behavior/chainOfResponsability/ChainPatternDemo.java" binary="false" 
     corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="751" y="624"/>    
+    <position height="-1" width="-1" x="757" y="556"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -45,52 +45,56 @@
   <class id="5" language="java" name="it.cira.patterns.behavior.chainOfResponsability.LoggerAstratto" 
     project="CiraPatterns" file="/CiraPatterns/src/it/cira/patterns/behavior/chainOfResponsability/LoggerAstratto.java" 
     binary="false" corner="BOTTOM_RIGHT">    
-    <position height="-1" width="-1" x="741" y="153"/>    
+    <position height="-1" width="-1" x="764" y="196"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
       <operations public="true" package="true" protected="true" private="true" static="true"/>    
     </display>  
   </class>  
-  <generalization id="6">    
-    <end type="SOURCE" refId="1"/>    
+  <dependency id="6">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="5"/>  
+  </dependency>  
+  <generalization id="8">    
+    <end type="SOURCE" refId="2"/>    
     <end type="TARGET" refId="5"/>  
   </generalization>  
-  <association id="7">    
-    <bendpoint x="1022" y="154"/>    
-    <bendpoint x="1020" y="248"/>    
-    <bendpoint x="864" y="246"/>    
+  <generalization id="9">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <association id="10">    
+    <bendpoint x="975" y="201"/>    
+    <bendpoint x="977" y="289"/>    
+    <bendpoint x="887" y="289"/>    
     <end type="SOURCE" refId="5" navigable="false">      
-      <attribute id="8" name="prossimoLogger"/>      
-      <multiplicity id="9" minimum="0" maximum="1"/>    
+      <attribute id="11" name="prossimoLogger">        
+        <position height="18" width="88" x="884" y="264"/>      
+      </attribute>      
+      <multiplicity id="12" minimum="0" maximum="1">        
+        <position height="0" width="0" x="23" y="43"/>      
+      </multiplicity>    
     </end>    
     <end type="TARGET" refId="5" navigable="true"/>    
     <display labels="true" multiplicity="true"/>  
   </association>  
-  <dependency id="10">    
-    <end type="SOURCE" refId="4"/>    
-    <end type="TARGET" refId="2"/>  
-  </dependency>  
-  <generalization id="11">    
-    <end type="SOURCE" refId="2"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
-  <dependency id="12">    
+  <dependency id="13">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="1"/>  
   </dependency>  
-  <dependency id="13">    
-    <end type="SOURCE" refId="4"/>    
+  <generalization id="14">    
+    <end type="SOURCE" refId="1"/>    
     <end type="TARGET" refId="5"/>  
-  </dependency>  
-  <dependency id="14">    
+  </generalization>  
+  <dependency id="15">    
     <end type="SOURCE" refId="4"/>    
     <end type="TARGET" refId="3"/>  
   </dependency>  
-  <generalization id="15">    
-    <end type="SOURCE" refId="3"/>    
-    <end type="TARGET" refId="5"/>  
-  </generalization>  
   <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
     sort-features="false" accessors="true" visibility="true">    
     <attributes public="true" package="true" protected="true" private="true" static="true"/>    

@@ -1,6 +1,6 @@
 package it.cira.patterns.behavior.mediator;
 
-public class User {
+public class UtenteAstratto {
 	private String name;
 
 	public String getName() {
@@ -11,7 +11,7 @@ public class User {
 		this.name = name;
 	}
 
-	public User(String name){
+	public UtenteAstratto(String name){
 		this.name  = name;
 	}
 
